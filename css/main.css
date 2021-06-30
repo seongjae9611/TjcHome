@@ -1,0 +1,247 @@
+/* COMMON */
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inner {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.btn_blue {
+    width: 330px;
+    border: 2px solid;
+    border-radius: 30px;
+    color: #0c2a7b;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 15px;
+    transition: .4s;
+}
+
+.btn_blue:hover{
+    background-color: #0c2a7b;;
+    color: #fff;
+}
+
+/* header */
+header {
+
+}
+
+header .second_header {
+    background-color: #0c223F;
+}
+
+header .second_header .inner {
+    height: 45px;
+    align-items: center;
+    display: flex;
+}
+
+header .sub_link ul {
+    display: flex;
+}
+
+header .sub_link ul li {
+    margin-right: 10px;
+    padding: 13px;
+    font-size: 12px;
+    color: #656565;
+}
+
+header .sub_link ul li:last-child {
+    margin-right: 0px;
+}
+
+header .first_header {
+    background-color: #F1F4FC;
+}
+
+header .first_header .inner {
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+header .main_link {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+header .main_link ul{
+    display: flex;
+}
+
+header .main_link ul li {
+    padding: 30px;
+    font-size: 15px;
+    color: #848b8e;
+}
+
+header .search {
+    height: 34px;
+    position: relative;
+}
+
+header .search input {
+    width: 36px;
+    height: 34px;
+    padding: 4px 10px;
+    border: 1px solid #848b8e;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    background: #ffffff;
+    color: #777;
+    font-size: 12px;
+    transition: .4s;
+}
+
+header .search input:focus {
+    width: 190px;
+    border-color: #F2EFEF;
+}
+
+header .search .material-icons {
+    height: 24px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5px;
+    margin: auto;
+    transition: .4s;
+}
+
+header .search.focused .material-icons {
+    opacity: 0;
+}
+/* swiper content */
+.promotion {
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* sermon */
+.sermon {
+    height: 630px;
+    background-color: #F1F4FC;
+}
+.sermon .inner {
+    
+}
+
+.sermon .inner h2 {
+    padding: 35px 0px;
+    font-size: 35px;
+}
+
+.sermon .container_group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sermon .container_group .container {
+    width: 370px;
+    height: 370px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.sermon .container_group .container:last-child {
+    margin-right: 0px
+}
+
+.sermon .container_group .container .wrapper {
+    
+}
+
+.sermon .container_group .container .wrapper .rollover {
+    position: relative;
+}
+
+.sermon .container_group .container .wrapper .rollover .rollover_content {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    opacity: 0;
+}
+
+.sermon .container_group .container .wrapper .rollover .rollover_content .icon_group {
+    margin-top: 50px;
+}
+
+.sermon .container_group .container .wrapper .rollover .rollover_content .icon_group a {
+    border-radius: 50%;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 32px;
+}
+.sermon .container_group .container .wrapper .rollover .rollover_content .icon_group a:hover {
+    cursor: pointer;
+}
+
+.sermon .container_group .container .wrapper .rollover .rollover_content:hover {
+    background-color: #ffffff;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.sermon .container_group .container .wrapper .rollover .rollover_content h2 {
+    font-size: 23px;
+    text-align: center;
+}
+
+.sermon .container_group .container .wrapper .rollover .rollover_content h3 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.sermon .container_group .container img {
+    width: 370px;
+    height: 250px;
+    margin-bottom: 30px;
+    position: absolute;
+    opacity: 1;
+}
+
+.sermon .inner .container_group .container .text_group {
+    margin-top: 30px;
+    position: relative;
+}
+
+.sermon .inner .container_group .container .text_group a {
+    font-size: 23px;
+    font-weight: 700;
+    color: #549F97;
+    padding: 10px;
+}
+
+.sermon .inner .container_group .container .text_group p {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.sermon .inner .container_group .container .text_group p a{
+    font-size: 12px;
+}
+
+.sermon .btn {
+    margin-top: 50px;
+    text-align: center;
+}
+/* confession */
+
+/* book publication */
+
+/* footer  */
+
