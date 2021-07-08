@@ -1,0 +1,380 @@
+/* COMMON */
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    
+}
+
+.inner {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.btn_blue {
+    border: 2px solid;
+    border-radius: 30px;
+    color: #0c2a7b;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 15px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.btn_blue:hover{
+    background-color: #0c2a7b;;
+    color: #fff;
+}
+
+.btn_box {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.btn_box:hover {
+    color: #549F97;
+}
+
+/* header */
+header {
+
+}
+
+header .second_header {
+    background-color: #0c223F;
+}
+
+header .second_header .inner {
+    height: 45px;
+    align-items: center;
+    display: flex;
+}
+
+header .sub_link ul {
+    display: flex;
+}
+
+header .sub_link ul li {
+    margin-right: 10px;
+    padding: 13px;
+    font-size: 12px;
+    color: #656565;
+}
+
+header .sub_link ul li:last-child {
+    margin-right: 0px;
+}
+
+header .first_header {
+    background-color: #ffffff;
+}
+
+header .first_header .inner {
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+header .main_link {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+header .main_link ul{
+    display: flex;
+}
+
+header .main_link ul li {
+    padding: 30px;
+    font-size: 15px;
+    color: #848b8e;
+}
+
+header .search {
+    height: 34px;
+    position: relative;
+}
+
+header .search input {
+    width: 36px;
+    height: 34px;
+    padding: 4px 10px;
+    border: 1px solid #848b8e;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    background: #ffffff;
+    color: #777;
+    font-size: 12px;
+    transition: .4s;
+}
+
+header .search input:focus {
+    width: 190px;
+    border-color: #F2EFEF;
+}
+
+header .search .material-icons {
+    height: 24px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5px;
+    margin: auto;
+    transition: .4s;
+}
+
+header .search.focused .material-icons {
+    opacity: 0;
+}
+
+
+
+    /* lecture */
+.lecture {
+    height: 180px;
+    background-image: url(http://tjc.or.kr/wp-content/uploads/2015/03/bg_title1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lecture .title {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lecture .title h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.lecture .title .sub_link {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.lecture .title .sub_link li {
+    color: #ffffff;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.lecture .title .sub_link li a {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
+
+    /* Menu */
+    .menu {
+
+    }
+    
+    .menu .inner .menu_group {
+        margin-top: 35px;
+        display: flex;
+    }
+    
+    .menu .inner .menu_group .side_menu_group {
+        margin-right: 50px;
+    }
+    
+    .menu .inner .menu_group .side_menu_group .side_menu {
+        margin-bottom: 15px;
+    }
+    
+    .menu .inner .menu_group .side_menu_group .side_menu:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .menu .inner .menu_group .side_menu_group .side_menu .kind li {
+        width: 232px;
+        border: 1px solid #000000;
+        border-bottom: none;
+        transition: .4s;
+    }
+    
+    .menu .inner .menu_group .side_menu_group .side_menu .kind li:last-child {
+        border-bottom: 1px solid #000000;
+    }
+    
+    
+    .menu .inner .menu_group .side_menu_group .side_menu .kind li:hover {
+        background-color: #0c223F;   
+    }
+    
+    .menu .inner .menu_group .side_menu_group .side_menu .kind li:hover a {
+        color: #fff;
+    }
+    
+    .menu .inner .menu_group .side_menu_group .side_menu .kind li a {
+        height: 39px;
+        color: #656565;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    
+    .menu .inner .menu_group .side_menu_group .side_menu .title {
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #333333;
+    }
+    
+    .menu .inner .menu_group .main_menu_group {
+    
+    }
+
+    .menu .inner .menu_group .main_menu_group .container img {
+        width: 669;
+        height: 272;
+        margin-bottom: 20px;
+    }
+
+    .menu .inner .menu_group .main_menu_group .container .text_group h2 {
+        color: #549F97;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .menu .inner .menu_group .main_menu_group .container .text_group h3 {
+        color: #666666;
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 10px;
+    }
+
+    .menu .inner .menu_group .main_menu_group .container .sub_link {
+        border-top: 1px solid #e2e2e2;
+        border-bottom: 1px solid #e2e2e2;
+        margin-bottom: 50px;
+    }
+
+    .menu .inner .menu_group .main_menu_group .container .sub_link a {
+        display: flex;
+        justify-content: flex-end;
+        color: #549F97;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* footer  */
+    footer {
+        height: 550px;
+        background-image: url(http://new.tjc.or.kr/wp-content/uploads/2017/11/%ED%92%8B%ED%84%B0-%EB%B0%B0%EA%B2%BD.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    footer .explanation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer .explanation img {
+        width: 720px;
+        height: 200px;
+        margin-top: 30px;
+    }
+    
+    footer .explanation h2 {
+        font-size: 18px;
+        color: #ffffff;
+        margin-top: 30px;
+    }
+    
+    footer .container_group {
+        display: flex;
+        height: 225px;
+        background-color: #0c2a7b;
+        opacity: 0.7;
+        margin-top: 50px;
+    }
+    
+    footer .container_group .logo {
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 30px;
+    }
+    
+    footer .container_group .btn_group {
+        display: flex;
+        height: 50px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    footer .container_group .btn_group .btn_box {
+        margin-right: 10px;
+    }
+    
+    footer .container_group .btn_group .btn_box:last-child {
+        margin-right: 0px;
+    }
+    
+    footer .container_group .description_group {
+        width: 900px;
+        color: #ffffff;
+    }
+    
+    footer .container_group .description_group .description {
+        position: relative;
+    }
+    
+    footer .container_group .description_group .description .adress {
+        position: absolute;
+        top: 15px;
+    }
+    
+    footer .container_group .description_group .description .number {
+        position: absolute;
+        top: 15px;
+        left: 400px;
+    }
+    
+    footer .container_group .description_group .description .zipcode {
+        position: absolute;
+        top: 50px;
+    }
+    
+    footer .container_group .description_group .description .fax_number {
+        position: absolute;
+        top: 50px;
+        left: 400px;
+    }
+    
+    footer .container_group .copyright {
+        /* position: absolute;
+        top: 500px; */
+        display: flex;
+        height: 130px;
+        color: #777;
+        justify-content: center;
+        align-items: flex-end;
+    }

@@ -162,6 +162,7 @@ header .search.focused .material-icons {
 .lecture .title h2 {
     color: #fff;
     font-size: 40px;
+    font-weight: 700;
 }
 
 .lecture .title .sub_link {
